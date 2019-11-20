@@ -1,3 +1,9 @@
+"""
+We were given the number 1707 ↑↑ 1783 (↑↑ being the hyper-exponential function) and we were asked to compute the last 16 digits,
+which translates to mod 10^16. Then we use some number theory properties to calculate phi (Euler fucntion) and reduce the problem
+to a recursive function.
+"""
+
 # Calculating the phi number. For 10 ** 16 the recursion is simple, so we use it 
 def phi(num):
     if (num % 5 == 0):
