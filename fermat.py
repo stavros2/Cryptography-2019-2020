@@ -1,3 +1,8 @@
+"""A simple implementation of the fermat test for prime numbers.
+The number we want to check is given as an argument. 
+Then we perform the check a maximum of 100 times (we stop if we get a "number is copmosite" result).
+If the number in question passes the test 100 times, then it's prime with probabilty 2^(-100).
+"""
 import sys, random;
 
 
